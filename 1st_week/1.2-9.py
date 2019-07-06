@@ -14,3 +14,9 @@ for obj in objects:
         s.add(i)
 
 print(ans)
+
+# Или решения в одну строку:
+
+print(len(set(map(id, objects))))
+
+print(len(set(id(i) for i in objects)))
