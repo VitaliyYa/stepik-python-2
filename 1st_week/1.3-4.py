@@ -1,0 +1,12 @@
+"""
+Задача 1.3-4
+"""
+a = []
+
+
+def foo(arg1, arg2):
+    a.append('foo')
+
+
+foo(a.append('arg1'), a.append('arg2'))
+print(a)    # ['arg1', 'arg2', 'foo']
